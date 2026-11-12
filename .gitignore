@@ -1,0 +1,13 @@
+# Virtual Environment
+.venv/
+
+#Pycharms default file
+.idea/
+
+#Python caches
+__pycache__/
+
+*.pyc
+
+#Environment Variable
+.env
