@@ -1,6 +1,6 @@
 import pandas as pd
 
-from data_ingestion import load_data
+from components.data_ingestion import load_data
 
 
 def eda_basic(data:pd.DataFrame):

@@ -1,5 +1,5 @@
 import pandas as pd
-from data_ingestion import load_data
+from components.data_ingestion import load_data
 
 def dataset_check(data:pd.DataFrame):
     '''
