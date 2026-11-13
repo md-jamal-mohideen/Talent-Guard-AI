@@ -1,9 +1,10 @@
-import pandas as pd
+from components.data_ingestion import load_data
+from components.data_validation import dataset_check
 
-from data_ingestion import load_data
+
+def main():
+    data = load_data()
+    dataset_check(data)
 
 if __name__=='__main__':
-    data = load_data()
-    print(data.head())
-    print(data.shape)
-    print(data.columns)
+    main()
